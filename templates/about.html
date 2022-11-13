@@ -1,0 +1,24 @@
+{% extends "wrapper.html" %}
+
+{% block content %}
+
+    <h1>How does it work?</h1>
+
+    <p align="center">Nunc mattis enim ut tellus elementum sagittis vitae et leo. Netus et malesuada fames ac turpis
+        egestas integer eget. Auctor eu augue ut lectus. Nec tincidunt praesent semper feugiat nibh sed. Cras fermentum
+        odio eu feugiat pretium nibh ipsum consequat. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed
+        ullamcorper. Id velit ut tortor pretium viverra. Orci dapibus ultrices in iaculis nunc sed augue. Tortor posuere
+        ac ut consequat semper viverra nam libero. Augue lacus viverra vitae congue eu consequat.</p>
+
+    <p align="center">Risus nullam eget felis eget nunc. Turpis egestas integer eget aliquet. Cras semper auctor neque vitae tempus
+        quam pellentesque nec. Urna porttitor rhoncus dolor purus. Magna etiam tempor orci eu lobortis elementum nibh
+        tellus molestie. Id porta nibh venenatis cras sed felis eget velit. Nec sagittis aliquam malesuada bibendum arcu
+        vitae elementum curabitur vitae. Sagittis id consectetur purus ut. Ut placerat orci nulla pellentesque. In
+        dictum non consectetur a erat nam. Ut sem nulla pharetra diam sit amet.</p>
+
+{% endblock content %}
+
+{% block footercontent %}
+    <a class="btn btn-outline-info" href="{{ url_for('main.index') }}">Back</a>
+    <a class="btn btn-outline-info" href="{{ url_for('main.about') }}">How does it work?</a>
+{% endblock footercontent %}
